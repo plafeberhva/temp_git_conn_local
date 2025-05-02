@@ -3,6 +3,31 @@ Temporary project to learn about connecting between Githun and local IDE.
 
 ---
 
+## Required Workflow for Making Changes
+
+To ensure consistency and best practices, always follow this procedure when working on this repository:
+
+1. **Create a GitHub Issue**
+   - Open an issue describing the task or feature you want to work on.
+2. **Create a Feature Branch**
+   - Create and switch to a new branch named after the issue (e.g., `issue-1-description`).
+3. **Make Your Changes**
+   - Edit, add, or remove files as needed to address the issue.
+4. **Stage and Commit**
+   - Stage your changes and commit with a descriptive message referencing the issue (e.g., `closes #1`).
+5. **Push the Branch to GitHub**
+   - Push your feature branch to the remote repository.
+6. **Open a Pull Request**
+   - Open a pull request from your feature branch to `main`, referencing the issue.
+7. **Merge After Review**
+   - After review (and resolving any conflicts), merge the pull request into `main`.
+8. **Clean Up**
+   - Delete the feature branch both locally and remotely after merging.
+
+> **Note:** This is the only correct procedure for making changes in this repository. Always follow these steps for every new task or feature.
+
+---
+
 ## Git Best Practices
 
 1. **Commit Often, But with Purpose**
